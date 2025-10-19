@@ -181,6 +181,19 @@ export default function Hero({ id = "hero", ...props }) {
               See How It Works
             </Button>
           </div>
+          <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <Button
+              href="https://firstclassfranchise.typeform.com/qualify"
+              variant="secondary"
+              className="sm:min-w-[220px] justify-center border-[#ff3131]/60 text-white hover:bg-[#ff3131]/10"
+              external
+            >
+              See If You Qualify
+            </Button>
+            <p className="text-xs uppercase tracking-[0.4em] text-white/40">
+              Under 2 minutes to complete
+            </p>
+          </div>
           <div className="mt-10 flex flex-wrap items-center gap-6 text-xs uppercase tracking-[0.4em] text-white/40">
             <span>Automations</span>
             <span>AI Employees</span>
