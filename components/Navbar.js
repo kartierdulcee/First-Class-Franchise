@@ -19,20 +19,20 @@ export default function Navbar() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
     >
-      <div className="pointer-events-auto flex w-full max-w-5xl items-center justify-between rounded-full border border-white/10 bg-white/[0.06] px-4 py-2.5 shadow-[0_25px_80px_rgba(0,0,0,0.55)] backdrop-blur-3xl md:px-6">
+      <div className="pointer-events-auto flex w-full max-w-6xl items-center justify-between rounded-full border border-white/10 bg-white/[0.06] px-5 py-3.5 shadow-[0_25px_80px_rgba(0,0,0,0.55)] backdrop-blur-3xl md:px-8">
         <Link
           href="#hero"
-          className="flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.05] px-3 py-1.5 text-white transition hover:border-white/30 hover:bg-white/[0.08]"
+          className="flex items-center gap-3 rounded-full border border-white/10 bg-white/[0.05] px-4 py-1.5 text-white transition hover:border-white/30 hover:bg-white/[0.08]"
         >
           <Image
             src="/logo.png"
             alt="First Class logo"
-            width={32}
-            height={32}
-            className="h-8 w-8"
+            width={44}
+            height={44}
+            className="h-11 w-11 object-contain"
             priority
           />
-          <span className="heading-font text-sm font-semibold uppercase tracking-[0.25em]">
+          <span className="heading-font text-[0.85rem] font-semibold uppercase tracking-[0.3em]">
             First Class
           </span>
         </Link>

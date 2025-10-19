@@ -29,17 +29,17 @@ export default function TeamLogin() {
       </SignedIn>
       <SignedOut>
         <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-black via-[#080808] to-[#020202] px-4 py-16">
-          <div className="w-full max-w-md rounded-[32px] border border-white/10 bg-white/[0.04] p-8 text-white shadow-[0_25px_80px_rgba(0,0,0,0.55)] backdrop-blur-3xl">
-            <div className="heading-font text-lg font-semibold uppercase tracking-[0.3em] text-white/70">
+          <div className="w-full max-w-2xl rounded-[40px] border border-white/10 bg-white/[0.05] p-10 text-white shadow-[0_40px_120px_rgba(0,0,0,0.55)] backdrop-blur-3xl">
+            <div className="heading-font text-lg font-semibold uppercase tracking-[0.32em] text-white/70">
               First Class
             </div>
-            <h1 className="heading-font mt-4 text-3xl font-semibold text-white">
+            <h1 className="heading-font mt-4 text-4xl font-semibold text-white">
               Team Portal Login
             </h1>
-            <p className="mt-3 text-sm text-white/60">
+            <p className="mt-3 max-w-xl text-base text-white/60">
               Authorized staff only. Use the credentials issued by HQ to access mission control.
             </p>
-            <div className="mt-8 rounded-2xl border border-white/10 bg-black/50 p-5">
+            <div className="mt-10 rounded-[28px] border border-white/10 bg-black/60 p-8">
               <SignIn
                 routing="hash"
                 afterSignInUrl="/admin"
