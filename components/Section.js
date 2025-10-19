@@ -16,7 +16,7 @@ const defaultVariants = {
 export default function Section({ children, className = "", delay = 0, ...props }) {
   return (
     <motion.section
-      className={`mx-auto w-full max-w-6xl scroll-mt-32 px-6 py-16 sm:px-8 md:px-12 md:py-24 ${className}`}
+      className={`mx-auto w-full max-w-6xl scroll-mt-32 px-5 py-14 sm:px-8 sm:py-16 md:px-12 md:py-24 ${className}`}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}

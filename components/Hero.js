@@ -154,7 +154,7 @@ export default function Hero({ id = "hero", ...props }) {
         />
       </div>
 
-      <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 pb-28 pt-28 sm:px-8 md:px-12 md:pb-36 md:pt-40 lg:flex-row lg:items-center">
+      <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-12 px-5 pb-24 pt-24 sm:px-8 sm:pb-28 sm:pt-28 md:px-12 md:pb-36 md:pt-40 lg:flex-row lg:items-center">
         <motion.div
           className="max-w-2xl"
           initial={{ opacity: 0, y: 40 }}
