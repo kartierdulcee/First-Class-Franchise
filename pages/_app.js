@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Inter, Poppins } from "next/font/google";
+import ChatbaseWidget from "@/components/ChatbaseWidget";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
     <ClerkProvider publishableKey={publishableKey} {...pageProps}>
       <div className={`${inter.variable} ${poppins.variable}`}>
         <Component {...pageProps} />
+        <ChatbaseWidget />
       </div>
     </ClerkProvider>
   );
