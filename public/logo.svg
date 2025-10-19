@@ -1,0 +1,6 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="60" rx="14" fill="#000"/>
+  <text x="24" y="38" fill="#fff" font-family="Poppins, sans-serif" font-size="28" font-weight="600">
+    First <tspan fill="#ff3131">Class</tspan>
+  </text>
+</svg>
