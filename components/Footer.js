@@ -11,7 +11,7 @@ const navLinks = [
 const socialLinks = [
   {
     label: "Instagram",
-    href: "https://instagram.com",
+    href: "https://instagram.com/firstclass.scale",
     Icon: () => (
       <>
         <rect x="6" y="6" width="20" height="20" rx="6" fill="none" stroke="currentColor" strokeWidth="2" />
